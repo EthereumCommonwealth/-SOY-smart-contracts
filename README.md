@@ -1,45 +1,109 @@
-# IDO
+# Github
 
-- Price feed contract [0x9bFc3046ea26f8B09D3E85bd22AEc96C80D957e3](https://explorer.callisto.network/address/0x9bFc3046ea26f8B09D3E85bd22AEc96C80D957e3/contracts)
-- IDO daily auction [0xEbBDd505bA4E6CaD0C17ccd5cbd88CBA073Fe934](https://explorer.callisto.network/address/0xEbBDd505bA4E6CaD0C17ccd5cbd88CBA073Fe934/contracts)
-- IDO weekly auction [0xAD2e597F27F5988ADB8876D1c3b1A5C64c6d7403](https://explorer.callisto.network/address/0xAD2e597F27F5988ADB8876D1c3b1A5C64c6d7403/contracts)
-- IDO Multisig (bank and owner)[0xb068C7a7ebE619ddb57bF0b05163511950F2140A](https://explorer.callisto.network/address/0xb068C7a7ebE619ddb57bF0b05163511950F2140A/contracts)
+Landing page: GitHub - SoyFinance/Soy.Finance: Website
+Multichain app - https://github.com/CallistoEnterprise/multichain-soy-finance
 
-# Deployed contracts / SOY Phase 1.0
+Smart-contracts: GitHub - SoyFinance/smart-contracts
 
-- Airdrop contract [0x06C0D53112b522c2cAA0B150Dc431386ceeC0cf0](https://explorer.callisto.network/address/0x06C0D53112b522c2cAA0B150Dc431386ceeC0cf0/contracts)
-- SOY ERC223 token ([SoyTokenERC223.sol](https://github.com/SoyFinance/smart-contracts/blob/main/SoyTokenERC223.sol)) [0x717F9Bc945910deE9aB6c6e885a072D5C2B1A2Fb](https://explorer.callisto.network/address/0x717F9Bc945910deE9aB6c6e885a072D5C2B1A2Fb)
-- CLOE token [0x1eAa43544dAa399b87EEcFcC6Fa579D5ea4A61870](https://explorer.callisto.network/address/0x1eAa43544dAa399b87EEcFcC6Fa579D5ea4A6187/contracts)
-- WCLO (wrapped CLO) token [0xC63c95d1d4f945141fE86EF978D6b99B8e3905d5](https://explorer.callisto.network/address/0xC63c95d1d4f945141fE86EF978D6b99B8e3905d5/contracts)
-- SoyFinanceFactory [0x4A336fc533D28961c0E1de64b2083019b09cf3Ec](https://explorer.callisto.network/address/0x4A336fc533D28961c0E1de64b2083019b09cf3Ec/contracts)
-- SoyFinanceRouter [0xB4dDe88Fd2D7Cf5AA0880fa2Ec893124Cbbe0FA3](https://explorer.callisto.network/address/0xB4dDe88Fd2D7Cf5AA0880fa2Ec893124Cbbe0FA3/contracts)
-- Multicall contract [0x8bA3D23241c7044bE703afAF2A728FdBc16f5F6f](https://explorer.callisto.network/address/0x8bA3D23241c7044bE703afAF2A728FdBc16f5F6f/contracts)
+Original Multicall contract source: multicall/Multicall.sol at master · makerdao/multicall
 
-# Deployed contracts / SOY Phase 1.5 - ERC223 & Farming
+Bridge source: GitHub - yuriy77k/CallistoBridge
 
-## Main net
+# Deployment
 
-- WCLO ERC223 (wrapped CLO) token [0xF5AD6F6EDeC824C7fD54A66d241a227F6503aD3a](https://explorer.callisto.network/address/0xF5AD6F6EDeC824C7fD54A66d241a227F6503aD3a/contracts)
-- SoyFinanceFactory [0x9CC7C769eA3B37F1Af0Ad642A268b80dc80754c5](https://explorer.callisto.network/address/0x9CC7C769eA3B37F1Af0Ad642A268b80dc80754c5/contracts)
-- SoyFinanceRouter [0xeB5B468fAacC6bBdc14c4aacF0eec38ABCCC13e7](https://explorer.callisto.network/address/0xeB5B468fAacC6bBdc14c4aacF0eec38ABCCC13e7/contracts)
-- AirdropSoy contract ([AirdropSoy.sol](https://github.com/SoyFinance/smart-contracts/blob/main/AirdropSoy.sol)) [0x0E2bfaabb56A83326A34299Ce75BBbab8A03Fce2](https://explorer.callisto.network/address/0x0E2bfaabb56A83326A34299Ce75BBbab8A03Fce2/contracts)
-- Multicall2 contract [0x3c4127A01b75E3741DD40A7a044BC70e3Ed4e77C](https://explorer.callisto.network/address/0x3c4127A01b75E3741DD40A7a044BC70e3Ed4e77C/contracts)
+Soy Exchange & Ecosystem contracts (ERC20/ERC223)
+BitTorrent Local Farm (20x) 0xE38B4D506fBe9745867fBbdd832B90B08a395df0
 
-- SOY (ERC223) Token 0x9FaE2529863bD691B4A7171bDfCf33C7ebB10a65: https://explorer.callisto.network/address/0x9FaE2529863bD691B4A7171bDfCf33C7ebB10a65/transactions
-- Global Farm contract 0x64Fa36ACD0d13472FD786B03afC9C52aD5FCf023: https://explorer.callisto.network/address/0x64Fa36ACD0d13472FD786B03afC9C52aD5FCf023/transactions
+WCLO ERC223 (wrapped CLO) token 0xF5AD6F6EDeC824C7fD54A66d241a227F6503aD3a
 
-## Main net Local Farms
+SoyFinanceFactory 0x9CC7C769eA3B37F1Af0Ad642A268b80dc80754c5
 
-- SOY/CLO 0xf43Db9BeC8F8626Cb5ADD409C7EBc7272c8f5F8f
-- CLOE/CLO 0xfe61A8dc1458D013f31b7B5d0DDf82864Cf89035
-- CLO/BUSDT 0x3E5B906eE1Cb467E1511a2b1ad5a1bc4a3F9BF8B
-- SOY/BUSDT 0xf16edf5Ba6bc116C17f6769deB470a190e272381
+SoyFinanceRouter 0x7371586d1e27b739b4A582f38240327b1881F445
 
-## Test net 
+AirdropSoy contract (AirdropSoy.sol) 0x06C0D53112b522c2cAA0B150Dc431386ceeC0cf0
 
-- SOY ERC223 token [0x4c20231BCc5dB8D805DB9197C84c8BA8287CbA92](https://testnet-explorer.callisto.network/address/0x4c20231BCc5dB8D805DB9197C84c8BA8287CbA92/contracts)
-- WCLO ERC223 (wrapped CLO) token [0xbd2D3BCe975FD72E44A73cC8e834aD1B8441BdDa](https://testnet-explorer.callisto.network/address/0xbd2D3BCe975FD72E44A73cC8e834aD1B8441BdDa/contracts)
-- SoyFinanceFactory [0x9D43dd4C1Ef8384c070Bfd05615142F55EFBD89f](https://testnet-explorer.callisto.network/address/0x9D43dd4C1Ef8384c070Bfd05615142F55EFBD89f/contracts)
-- SoyFinanceRouter [0xdbe46b17FFd35D6865b69F9398AC5454389BF38c](https://testnet-explorer.callisto.network/address/0xdbe46b17FFd35D6865b69F9398AC5454389BF38c/contracts)
-- Multicall contract [0x38920A03c3Aa13E19c87777ef0443C54FaAD1992](https://testnet-explorer.callisto.network/address/0x38920A03c3Aa13E19c87777ef0443C54FaAD1992/contracts)
-- AirdropSoy contract ([AirdropSoy.sol](https://github.com/SoyFinance/smart-contracts/blob/main/AirdropSoy.sol)) [0x864D0CfEfE4Dc7B4E4AF884a70753a1828F976cA](https://testnet-explorer.callisto.network/address/0x864D0CfEfE4Dc7B4E4AF884a70753a1828F976cA/contracts)
+SOY (ERC223) Token 0x9FaE2529863bD691B4A7171bDfCf33C7ebB10a65: SoyToken (0x9FaE2529863bD691B4A7171bDfCf33C7ebB10a65) - Callisto Network Mainnet Explorer
+
+Global Farm contract 0x64Fa36ACD0d13472FD786B03afC9C52aD5FCf023: GlobalFarm (0x64Fa36ACD0d13472FD786B03afC9C52aD5FCf023) - Mainnet Explorer
+
+Multicall contract 0x8bA3D23241c7044bE703afAF2A728FdBc16f5F6f
+
+# Farming
+
+## LP TOKENS
+CLO-ETC pair: 0x3493391e234834c93c0ed675a4872cf48d63ad1c
+SOY-ETC pair: 0xce49b862ed38414c86914df5e6d854afbe203563
+SOY/CLO 0x1ceE27d0627ce8A81dF9B4D7eEE0d753b8c2F613
+CLO/CLOE 0x6cC3F66d249D6bF299b226DEeB3E1c9Ed4dF60Da
+CLO/BUSDT 0xB852AD87329986EaC6e991954fe329231D1E4De1
+SOY/BUSDT 0x23288A0a9c7ac3bEC523aeED146E4F0bf04d6309
+SOY-ETH LP: 0xe0a4d8356c0ded2e0e7a4af6db2a164f7d1ad243
+CLO-ETH LP: 0x162c8b62cda2ec98dafe8ccb0624bb2bc08d6a7b
+SOY-BNB LP: 0x3006b056ea9423804084d6ba9080d6356ec78c10
+CLO-BNB LP: 0x7543bf769903fec667d73d58c602deffecb2c9c2
+SOY-CAKE LP: 0x4309b1FfF68E4C46abc9c92FB813cAFD1fC05A70
+SOY-ccTWT LP: 0x7f342fEd3A80ea475631196709D2C6c4a94816C8
+SOY-ccWSG LP: 0xE92a69F2aCAad1480ec945A60fBFdFB921436F51
+
+## LOCAL FARMS
+SOY/CLO 0xf43Db9BeC8F8626Cb5ADD409C7EBc7272c8f5F8f
+CLOE/CLO 0xfe61A8dc1458D013f31b7B5d0DDf82864Cf89035
+CLO/BUSDT 0x3E5B906eE1Cb467E1511a2b1ad5a1bc4a3F9BF8B
+SOY/BUSDT 0xf16edf5Ba6bc116C17f6769deB470a190e272381
+CLO/ccETC 0x009b08c79af977557513a71132fc1ccc582be310
+SOY/ccETC 0xF257e70b0B4A5E75BD351ceA7499b54f29636b0c
+SOY/ccETH 0xc2d33425ad2a25d78252a31d6f2c51a2f4f31394
+CLO/ccETH 0xe32077c789f671a7ef41d5706b6d7a411c7db98f
+SOY/ccBNB 0xf411ff92cacd87ee7ecb4fd83a5e7af5d2946c9e
+CLO/ccBNB 0xC58556bdA9A0083E3acF8fdDE838fd8941A423bF
+SOY/ccTWT 0x6eFf6b17d4Ad50a25483Cc8d149fbfC275B05435
+SOY/CLOE 0x8c0A982A4193c6bF8Eea6637Db0CF9160dCF91fD
+
+SOY/ZOO : 0xDaD226E5c7A315946F938EA952b7D28548DF373d
+
+SOY/BCOIN : 0xf995d7628FEAF679A776f055c5E211D55Ef5D9Bd
+SOY/SHIB : 0x23560EE7ccC3791e7Fb6D3371F4BB02Fa81F403c
+SOY/LINA : 0xAEE5De40fB9d24006B1b02A51bED7D44eA544A98
+SOY/FTM : 0x755dACb811Bb64F3a1A9DF3dEdf12dAc7d14500B
+SOY/XMS : 0xcE6599adB4e51d2e4062E87f725461B90a81e636
+SOY/CAKE : 0xa99E8864A727717F5C4c82031F99D360eb577738
+SOY/ANTEX : 0x542aB5a505fa2ba75836Ae87C6045EE03Ef8B41d
+SOY/REEF : 0x5c70437Fd3a2CC1f328E33bccdC345E8bAe0afD2
+SOY/RACA : 0x9D8D90518e096e337Bd3f32C93579d8D270a2825
+SOY/TON : 0x53aaFcf7B664DA84743730bc82CDb64F21694922
+SOY/BBT : 0xa11547041D82e4CcBCe8B9793c56964895fe471D
+SOY/WSG : 0xDA979A3878AFF6cf6228740dfA75Da39c1aF141c
+SOY/ZOO : 0xDaD226E5c7A315946F938EA952b7D28548DF373d
+
+SOY-ccBAKE 0x943c005eD3f77f44f17fF21a95E5043Bc04Bd3Fa
+
+## Bridge contracts (ERC20)
+Bridge contract: 0x9a1fc8C0369D49f3040bF49c1490E7006657ea56 (same address on CLO, ETH, BSC, ETC)
+ccCLO token: 0xCcbf1C9E8b4f2cDF3Bfba1098b8f56f97d219D53 (same address on ETH, BSC, ETC)
+ccETH token: 0xcC00860947035a26Ffe24EcB1301ffAd3a89f910 (on CLO network)
+ccBNB token: 0xCC78D0A86B0c0a3b32DEBd773Ec815130F9527CF (on CLO network)
+ccETC token 0xCc944bF3e76d483e41CC6154d5196E2e5d348fB0 (on CLO network)
+## Outdated contracts
+DEPRECATED SOY token (simple token ERC20) 0x83Ca59e46052a2FFF34651A62375985D47560062
+
+DEPRECATED SOY token (sushi fork) 0x9427B6804e630Fed4e59000aC1D6C6bC9D6d1f6d
+
+WCLO (wrapped CLO) token 0xC63c95d1d4f945141fE86EF978D6b99B8e3905d5
+
+SOY ERC223 TEST token 0x717F9Bc945910deE9aB6c6e885a072D5C2B1A2Fb
+
+SoyFinanceFactory 0x4A336fc533D28961c0E1de64b2083019b09cf3Ec
+
+SoyFinanceRouter 0xB4dDe88Fd2D7Cf5AA0880fa2Ec893124Cbbe0FA3
+
+[REMOVED] CLO/ETC Farm 0x022Aa809BBa4110809ffa91f4aCb8475E82b77Dd
+
+[REMOVED] SOY/ETC Farm 0x29B227c3437aB7b04370d21aeb7BcF1590016884
+## Privileged addresses
+feeToSetter of the SoyFinanceFactory contract: 0xc7d98c4c919e93ed44755718e27b53791e7f3521
+
+Owners Multisig wallet for Bridge contracts: 0x6A56D0f7498C9f2AEb9Bb6892Ade5b2E0A50379F (same address on CLO, ETH, BSC)
+
+Founders Multisig wallet for Bridge contracts: 0x447c143620A4555c8aEb1596fb013ea84e7DbC03 (same address on CLO, ETH, BSC)
+## Interface
+Current version: https://soyfinance.netlify.app/
